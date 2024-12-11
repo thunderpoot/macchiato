@@ -30,7 +30,7 @@ go run macchiato.go <input_file> [output_file]
 ### With Custom Styles
 
 ```
-go run macchiato.go <input_file> [output_file] --style=<css_file>
+go run macchiato.go --style=<css_file> <input_file> [output_file]
 ```
 
 
