@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    color: #333;
+    max-width: 800px;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a
+{
+    color: #2c3e50;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+h1 a:hover::after, h2 a:hover::after, h3 a:hover::after h4 a:hover::after h5 a:hover::after
+{
+    font-size: inherit;
+    vertical-align: super;
+}
+
+code
+{
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+pre
+{
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+    line-height: 1.6;
+    overflow-x: auto;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+th, td
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th { background-color: #f2f2f2; }
+
+.custom-container
+{
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.custom-container.primary
+{
+    background-color: #e3f2fd;
+    border-left: 5px solid #2196f3;
+}
+
+.custom-container.secondary
+{
+    background-color: #f0f0f0;
+    border-left: 5px solid #ced1d3;
+}
+
+.custom-container.success
+{
+    background-color: #e3fde6;
+    border-left: 5px solid #1ff372;
+}
+
+.custom-container.danger
+{
+    background-color: #fde3e3;
+    border-left: 5px solid #f32020;
+}
+
+.custom-container.warning
+{
+    background-color: #fdfbe3;
+    border-left: 5px solid #f3d21f;
+}
+
+.custom-container.info
+{
+    background-color: #d0ebf0;
+    border-left: 5px solid #48bfd6;
+}
+
+.custom-container.light
+{
+    background-color: #f6f6f6;
+    border-left: 5px solid #e6e6e6;
+}
+
+.custom-container.dark
+{
+    background-color: #bebfbf;
+    border-left: 5px solid #4d4d4d;
+}
+
+blockquote
+{
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+.code-block
+{
+    position: relative;
+}
+
+.copy-button
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.copy-button:hover { background-color: #e0e0e0; }

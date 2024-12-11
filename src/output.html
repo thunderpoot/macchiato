@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-clike.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-go.min.js"></script>
+
+    <title>Macchiato ::: test.md</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    color: #333;
+    max-width: 800px;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a
+{
+    color: #2c3e50;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+h1 a:hover::after, h2 a:hover::after, h3 a:hover::after h4 a:hover::after h5 a:hover::after
+{
+    font-size: inherit;
+    vertical-align: super;
+}
+
+code
+{
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+pre
+{
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+    line-height: 1.6;
+    overflow-x: auto;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+th, td
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th { background-color: #f2f2f2; }
+
+.custom-container
+{
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.custom-container.primary
+{
+    background-color: #e3f2fd;
+    border-left: 5px solid #2196f3;
+}
+
+.custom-container.secondary
+{
+    background-color: #f0f0f0;
+    border-left: 5px solid #ced1d3;
+}
+
+.custom-container.success
+{
+    background-color: #e3fde6;
+    border-left: 5px solid #1ff372;
+}
+
+.custom-container.danger
+{
+    background-color: #fde3e3;
+    border-left: 5px solid #f32020;
+}
+
+.custom-container.warning
+{
+    background-color: #fdfbe3;
+    border-left: 5px solid #f3d21f;
+}
+
+.custom-container.info
+{
+    background-color: #d0ebf0;
+    border-left: 5px solid #48bfd6;
+}
+
+.custom-container.light
+{
+    background-color: #f6f6f6;
+    border-left: 5px solid #e6e6e6;
+}
+
+.custom-container.dark
+{
+    background-color: #bebfbf;
+    border-left: 5px solid #4d4d4d;
+}
+
+blockquote
+{
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+.code-block
+{
+    position: relative;
+}
+
+.copy-button
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.copy-button:hover { background-color: #e0e0e0; }
+
+    </style>
+</head>
+<body>
+    <p><h1 id="welcome-to-macchiato-h1"><a href="#welcome-to-macchiato-h1">Welcome to Macchiato h1</a></h1></p>
+<p><h2 id="welcome-to-macchiato-h2"><a href="#welcome-to-macchiato-h2">Welcome to Macchiato h2</a></h2></p>
+<p><h3 id="welcome-to-macchiato-h3"><a href="#welcome-to-macchiato-h3">Welcome to Macchiato h3</a></h3></p>
+<p><h4 id="welcome-to-macchiato-h4"><a href="#welcome-to-macchiato-h4">Welcome to Macchiato h4</a></h4></p>
+<p><h5 id="welcome-to-macchiato-h5"><a href="#welcome-to-macchiato-h5">Welcome to Macchiato h5</a></h5></p>
+<p>This is a <strong>bold</strong> and <em>italic</em> text.</p>
+<p>This is a <code>code thing</code>.</p>
+<p>Here's some <mark>highlighted</mark> text and <del>strikethrough</del>.</p>
+<p>Here's a custom container box thing:</p>
+<div class="custom-container primary"><p>This is a primary box.</p>
+<p>It can contain multiple lines</p>
+<p>and even <strong>formatted</strong> text.</p>
+</div>
+<div class="custom-container secondary"><p>This is a secondary box.</p>
+</div>
+<div class="custom-container success"><p>This is a success box.</p>
+</div>
+<div class="custom-container danger"><p>This is a danger box.</p>
+</div>
+<div class="custom-container warning"><p>This is a warning box.</p>
+</div>
+<div class="custom-container info"><p>This is an info box.</p>
+</div>
+<div class="custom-container light"><p>This is a light box.</p>
+</div>
+<div class="custom-container dark"><p>This is a dark box.</p>
+</div>
+<div class="custom-container "><p>This is a regular ol' box.</p>
+</div>
+<div class="code-block">
+        <button class="copy-button" onclick="copyCode(this)">Copy</button>
+        <pre><code class="language-go">func main() {
+    fmt.Println(&#34;Hello, Macchiato!&#34;)
+}
+</code></pre>
+    </div><div class="code-block">
+        <button class="copy-button" onclick="copyCode(this)">Copy</button>
+        <pre><code class="language-perl">sub foo {
+    my ( $stuff ) = @_;
+    return &#34;$stuff is the thing&#34;;
+}
+</code></pre>
+    </div><div class="code-block">
+        <button class="copy-button" onclick="copyCode(this)">Copy</button>
+        <pre><code class="language-go">func (m *Macchiato) renderListItem(item ListItem) string {
+    if item.Type == Ordered {
+        return fmt.Sprintf(&#34;&lt;li value=\&#34;%d\&#34;&gt;%s&lt;/li&gt;\n&#34;, item.Number, m.parseLine(item.Content))
+    }
+    return fmt.Sprintf(&#34;&lt;li&gt;%s&lt;/li&gt;\n&#34;, m.parseLine(item.Content))
+}
+</code></pre>
+    </div><p>Here's a list:</p>
+<ul>
+<li>Item 1</li>
+<ul>
+<li>Subitem 1.1</li>
+</ul>
+<ul>
+<li>Subitem 1.2</li>
+</ul>
+</ul>
+<ul>
+<li>Item 2</li>
+<ol>
+<li value="1">Numbered subitem 2.1</li>
+</ol>
+<ol>
+<li value="2">Numbered subitem 2.2</li>
+</ol>
+</ul>
+<table>
+  <thead>
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+      <th>Column 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Row 1, Col 1</td>
+      <td>Row 1, Col 2</td>
+      <td>Row 1, Col 3</td>
+    </tr>
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+      <td>Row 2, Col 3</td>
+    </tr>
+  </tbody>
+</table>
+<p>Here's a footnote reference<sup><a href="#fn-1" id="fnref-1">[1]</a></sup> and another<sup><a href="#fn-2" id="fnref-2">[2]</a></sup>.</p>
+<p><sup><a href="#fn-1" id="fnref-1">[1]</a></sup>: This is the first footnote.</p>
+<p><sup><a href="#fn-2" id="fnref-2">[2]</a></sup>: This is the second footnote.</p>
+<p><a href="https://underwood.network/zalgo/">Visit This Cool Website</a></p>
+<p><img src="https://placehold.co/600x400" alt="image"></p>
+
+    <script>
+    function copyCode(button) {
+        const pre = button.nextElementSibling;
+        const code = pre.querySelector('code');
+        const range = document.createRange();
+        range.selectNode(code);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+
+        try {
+            document.execCommand('copy');
+            button.textContent = 'Copied!';
+            setTimeout(() => {
+                button.textContent = 'Copy';
+            }, 2000);
+        } catch (e) {
+            console.error('Failed to copy text: ', e);
+        }
+
+        window.getSelection().removeAllRanges();
+    }
+    </script>
+</body>
+</html>
